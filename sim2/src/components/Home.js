@@ -3,6 +3,15 @@ import Header from './Header';
 import {Link} from 'react-router-dom';
 
 export default class Home extends Component {
+    constructor(){
+        super()
+        this.state = {
+            propertyList: {}
+        }
+    }
+    // componentDidMount(){
+    //     let promise = axios.get()
+    // }
     render() {
         return (
             <div>
