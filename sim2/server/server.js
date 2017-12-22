@@ -5,10 +5,11 @@ const cors = require('cors')
     , massive = require('massive');
 
 const app = express();
+//75C
 app.use(bodyParser.json());
 const controller = require('./controller/controller');
 
-
+app.get('http://localhost:3001/api/listing', constroller.read)
 
 
 
