@@ -15,3 +15,4 @@ CREATE TABLE listing(
     state varchar(20),
     zip int
 )
+
